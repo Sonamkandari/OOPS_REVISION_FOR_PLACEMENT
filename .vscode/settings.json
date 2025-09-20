@@ -2,7 +2,11 @@
     "java.project.sourcePaths": [
         "OOPs_Concept",
         "OOPs_Concept\\Classes_Objects_Constructors",
-        "OOPs_Concept\\Polymorphism"
+        "OOPs_Concept\\Polymorphism",
+        "OOPs_Concept\\Inheritence",
+        "OOPs_Concept\\Inheritence\\Multi Level Inheritance",
+        "OOPs_Concept\\Inheritence\\Hybrid Inheritance",
+        "OOPs_Concept\\Inheritence\\singleLevel Inheritance"
     ],
     "java.project.referencedLibraries": []
 }
