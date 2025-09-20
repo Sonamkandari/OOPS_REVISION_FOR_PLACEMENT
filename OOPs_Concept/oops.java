@@ -29,6 +29,11 @@ class Student{
        System.out.println(this.city);
        System.out.println(this.Roll_no);
     }
+
+    // creating  constructor  for student class
+    Student(){
+        System.out.println("Constructor is called for the student class");
+    }
 }
 public class oops {
     public static void main(String[] args) {
@@ -45,6 +50,7 @@ public class oops {
         myobj2.printDetails(); // using this key word so that it can determine that which object is calling the particular function
          
         System.out.println();
+        // whenever we created this object we will call the student constructor first
         Student myobj1=new Student();
         myobj1.name="sonam";
         myobj1.Roll_no=1;
