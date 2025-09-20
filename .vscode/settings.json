@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "OOPs_Concept"
+        "OOPs_Concept",
+        "OOPs_Concept\\Classes_Objects_Constructors"
     ],
     "java.project.referencedLibraries": []
 }

@@ -1,4 +1,4 @@
- public class Teacher {
+public class Teacher {
     //properties which should be present inside the class properties and attributes
     private String name;
      String Dept;
