@@ -14,3 +14,5 @@ non perameterized constructor
 perameterized constructor
 and default constructore
 
+
+-- Creating a student constructor and whenever creating an object for that Student class calling the constructor of that class and if we does not create a constructor  in a java program the bt default constructor will be called for the particular programme
