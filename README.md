@@ -42,24 +42,34 @@ public static void main(String[] args) {
 }
 }
 
-- When an object is created, the constructor of that class is called.
-- If no constructor is created, the default constructor is called automatically.
+
+# Polymorphism
+## Run time Polymorphism
+-- It can not detect errors while compilation of the code
+-- This is more Harmful as compare to complile time beacuse it does not detect errors at the time of complilation of the code
+
+## Compile time Polymorphism
+-- It can detect the Errors during the compilation of the code
+-- 
 
 
-This version summarizes each topic clearly and keeps your exact content in concise form for a GitHub README.```markdown
+-- When an object is created, the constructor of that class is called.
+-- If no constructor is created, the default constructor is called automatically.
 
-Java Classes, Objects, and Constructors
-Classes and Objects
-A class is a blueprint to create objects.
 
-An object is an instance of a class.
+-- This version summarizes each topic clearly and keeps your exact content in concise form for a GitHub README.```markdown
 
-Objects hold data and behavior defined by their class.
+-- Java Classes, Objects, and Constructors
+#   Classes and Objects
+-- A class is a blueprint to create objects.
+-- An object is an instance of a class.
 
-The this Keyword
-Refers to the current object instance.
+-- Objects hold data and behavior defined by their class.
 
-Used to distinguish instance variables from parameters with the same name.
+# The this Keyword
+# Refers to the current object instance.
+
+-- Used to distinguish instance variables from parameters with the same name.
 
 Example: this.variableName refers to the object's variable.
 
@@ -103,12 +113,9 @@ public class Student {
     }
 }
 
-When an object is created, the constructor of that class is called.
+-- When an object is created, the constructor of that class is called.
 
-If no constructor is created, the default constructor is called automatically.
-
-
-
+-- If no constructor is created, the default constructor is called automatically.
 
 
 
