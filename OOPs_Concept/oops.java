@@ -34,6 +34,20 @@ class Student{
     Student(){
         System.out.println("Constructor is called for the student class");
     }
+
+    //creating a parameterized constructor
+    Student(String name){
+        this.name="sonam";
+        this.Roll_no=123;
+
+    }
+
+    //creating a copy constructor
+    Student(Student s2){
+        this.name=s2.name;
+        this.city=s2.city;
+        this.Roll_no=s2.Roll_no;
+    }
 }
 public class oops {
     public static void main(String[] args) {
@@ -51,13 +65,17 @@ public class oops {
          
         System.out.println();
         // whenever we created this object we will call the student constructor first
-        Student myobj1=new Student();
-        myobj1.name="sonam";
-        myobj1.Roll_no=1;
-        myobj1.city="Dehradun";
-        myobj1.printStudentDetails();
+        Student s1=new Student();
+        s1.name="sonam";
+        s1.Roll_no=1;
+        s1.city="Dehradun";
+        s1.printStudentDetails();
 
-         
+        System.out.println();
+
+        //we had not define properties for s2 ever but we used copy constructor for copying the values of s1 into s2
+        Student s2=new Student(s1);
+        s2.printStudentDetails();   
 
     }
     
