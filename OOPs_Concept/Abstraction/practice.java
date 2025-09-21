@@ -15,7 +15,7 @@ abstract class Animal{
 
     // creating a constructor of Animal class
     Animal(){
-        System.out.println("Created a Horse Constructor");
+        System.out.println("Created a Animal  Constructor");
     }
 
     
@@ -74,6 +74,8 @@ public class practice {
         horse.walk();
         horse.meow();
         horse.eat();
+
+        //note what is constructor chaining when we call the object of derived class and the object firstly call the function of base class and then call the constructor of sub class is called a constructor chaining
 
         System.out.println();
         Dog mydog=new Dog();
