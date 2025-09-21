@@ -116,8 +116,16 @@ public class Student {
 -- When an object is created, the constructor of that class is called.
 
 -- If no constructor is created, the default constructor is called automatically.
+--  PreBuild bacakes In java and user define packages in java
+-- Using these we can use dada of one class to another classes in java
 
+# Access modifiers in java
+-- Public Access modifiers
+-- Private Access modifiers
+-- Protected Access modifiers
+-- Default Access Modifiers
 
+# notes in my own language
 
 -- today i had studied about use of classes and implimentation of classes
 --  also use of this keyword
