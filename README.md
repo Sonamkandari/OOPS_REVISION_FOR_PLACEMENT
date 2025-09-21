@@ -123,15 +123,15 @@ public class Student {
 
 
 
+---
+
+# OBJECT ORIENTED PROGRAMMING SYSTEMS
 
 
-OBJECT ORIENTED PROGRAMMING SYSTEMS
-JAVA
-
-Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies the software development and maintenance by providing some concepts defined below : 
-Class is a user-defined data type which defines its properties and its functions. Class is the only logical representation of the data. For example, Human being is a class. The body parts of a human being are its properties, and the actions performed by the body parts are known as functions. The class does not occupy any memory space till the time an object is instantiated. 
+-- Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies the software development and maintenance by providing some concepts defined below : 
+-- Class is a user-defined data type which defines its properties and its functions. Class is the only logical representation of the data. For example, Human being is a class. The body parts of a human being are its properties, and the actions performed by the body parts are known as functions. The class does not occupy any memory space till the time an object is instantiated. 
 Object is a run-time entity. It is an instance of the class. An object can represent a person, place or any other item. An object can operate on both data members and member functions. 
-Example 1:
+## Example 1:
 class Student {
    String name;
    int age;
@@ -186,18 +186,18 @@ public class OOPS {
        p3.printColor();
    }
 }
-Note : When an object is created using a new keyword, then space is allocated for the variable in a heap, and the starting address is stored in the stack memory.
+---
+-- Note : When an object is created using a new keyword, then space is allocated for the variable in a heap, and the starting address is stored in the stack memory.
 ‘this’ keyword :  ‘this’ keyword in Java that refers to the current instance of the class. In OOPS it is used to: 
 pass the current object as a parameter to another method 
 refer to the current class instance variable
 
 
-
-Constructor : Constructor is a special method which is invoked automatically at the time of object creation. It is used to initialize the data members of new objects generally. 
+# Constructor : Constructor is a special method which is invoked automatically at the time of object creation. It is used to initialize the data members of new objects generally. 
 Constructors have the same name as class or structure. 
 Constructors don’t have a return type. (Not even void)
 Constructors are only called once, at object creation.
-There can be three types of constructors in Java. 
+## There can be three types of constructors in Java. 
 1. Non-Parameterized constructor : A constructor which has no argument is known as non-parameterized constructor(or no-argument constructor). It is invoked at the time of creating an object. If we don’t create one then it is created by default by Java.
 class Student {
    String name;
@@ -237,26 +237,11 @@ class Student {
 Note : Unlike languages like C++, Java has no Destructor. Instead, Java has an efficient  garbage collector that deallocates memory automatically.
 
 
+---
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Polymorphism 
-Polymorphism is the ability to present the same interface for differing underlying forms (data types). With polymorphism, each of these classes will have different underlying data. Precisely, Poly means ‘many’ and morphism means ‘forms’. 
+# Polymorphism 
+-- Polymorphism is the ability to present the same interface for differing underlying forms (data types). With polymorphism, each of these classes will have different underlying data. Precisely, Poly means ‘many’ and morphism means ‘forms’. 
 Types of Polymorphism IMP 
 1. Compile Time Polymorphism (Static) 
 2. Runtime Polymorphism (Dynamic) 
@@ -288,7 +273,7 @@ class Student {
 }
 
 
-Runtime Polymorphism : Runtime polymorphism is also known as dynamic polymorphism. Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class. In case of function overriding, parent and child classes both contain the same function with a different definition. The call to the function is determined at runtime is known as runtime polymorphism.
+-- Runtime Polymorphism : Runtime polymorphism is also known as dynamic polymorphism. Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class. In case of function overriding, parent and child classes both contain the same function with a different definition. The call to the function is determined at runtime is known as runtime polymorphism.
 
 class Shape {
    public void area() {
@@ -309,7 +294,7 @@ class Circle extends Shape {
 
 
 
- Inheritance 
+## Inheritance 
 Inheritance is a process in which one object acquires all the properties and behaviors of its parent object automatically. In such a way, you can reuse, extend or modify the attributes and behaviors which are defined in other classes. 
 In Java, the class which inherits the members of another class is called derived class and the class whose members are inherited is called base class. The derived class is the specialized class for the base class. 
 Types of Inheritance : 
@@ -361,21 +346,7 @@ class EquilateralTriangle extends Triangle {
 simple, multiple inheritance and hierarchical inheritance. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Package in Java
+# Package in Java
 Package is a group of similar types of classes, interfaces and sub-packages. Packages can be built-in or user defined.
 Built-in packages - java, util, io etc.
 
@@ -414,16 +385,11 @@ public class Sample {
 
 
 
-Encapsulation 
+## Encapsulation 
 Encapsulation is the process of combining data and functions into a single unit called class. In Encapsulation, the data is not accessed directly; it is accessed through the functions present inside the class. In simpler words, attributes of the class are kept private and public getter and setter methods are provided to manipulate these attributes. Thus, encapsulation makes the concept of data hiding possible.(Data hiding: a language feature to restrict access to members of an object, reducing the negative effect due to dependencies. e.g. "protected", "private" feature in Java). 
 
 
-
-
-
-
-
-Abstraction 
+## Abstraction 
 We try to obtain an abstract view, model or structure of a real life problem, and reduce its unnecessary details. With definition of properties of problems, including the data which are affected and the operations which are identified, the model abstracted from problems can be a standard solution to this type of problems. It is an efficient way since there are nebulous real-life problems that have similar properties. 
 In simple terms, it is hiding the unnecessary details & showing only the essential parts/functionalities to the user.
 Data binding : Data binding is a process of binding the application UI and business logic. Any change made in the business logic will reflect directly to the application UI. 
