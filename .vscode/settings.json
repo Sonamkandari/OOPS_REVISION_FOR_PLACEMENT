@@ -6,7 +6,12 @@
         "OOPs_Concept\\Inheritence",
         "OOPs_Concept\\Inheritence\\Multi Level Inheritance",
         "OOPs_Concept\\Inheritence\\Hybrid Inheritance",
-        "OOPs_Concept\\Inheritence\\singleLevel Inheritance"
+        "OOPs_Concept\\Inheritence\\singleLevel Inheritance",
+        "OOPs_Concept\\Inheritence\\MultipleInheritance",
+        "OOPs_Concept\\Packages_In_java",
+        "OOPs_Concept\\Packages_In_java\\PreBuild_Pakages",
+        "OOPs_Concept\\Access_Modifiers",
+        "OOPs_Concept\\Abstraction"
     ],
     "java.project.referencedLibraries": []
 }
