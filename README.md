@@ -34,24 +34,16 @@
 - Parameterized constructor
 - Default constructor (called if no constructor is explicitly defined)
 
-## Example: Student Class
 
-public class Student {
-String name;
-int age;
+-- Creating a student constructor and whenever creating an object for that Student class calling the constructor of that class and if we does not create a constructor  in a java program the bt default constructor will be called for the particular programme
 
-// Parameterized constructor
-public Student(String name, int age) {
-    this.name = name;
-    this.age = age;
-    System.out.println("Student constructor called");
-}
+-- constructors are created while calling a function
+-- constructors does not have an return type
+-- constructor can be called only once we can not call a constructor again and again just like other methods
 
-public static void main(String[] args) {
-    // Creates object and calls constructor
-    Student student1 = new Student("Alice", 20);
-}
-}
+# Desconstructors
+-- in java we dont have to create a deconstructor because in java we had a automatic garbage collector 
+thats why we dont use a desconstructor in java
 
 
 # Polymorphism 
@@ -130,22 +122,7 @@ public class Student {
 -- how to create objects and how objects are called by this key word in java
 
 
-# constructors
--- constructors are created while calling a function
--- constructors does not have an return type
--- constructor can be called only once we can not call a constructor again and again just like other methods
-
-# there are three type of constructores
-
--- non perameterized constructor
--- perameterized constructor
--- and default constructore
 
 
--- Creating a student constructor and whenever creating an object for that Student class calling the constructor of that class and if we does not create a constructor  in a java program the bt default constructor will be called for the particular programme
 
-
--- Desconstructors
--- in java we dont have to create a deconstructor because in java we had a automatic garbage collector 
-thats why we dont use a desconstructor in java
 
