@@ -83,8 +83,6 @@ public class practice {
         mydog.meow();
         mydog.eat();
 
-
-
         //Note an Animal is an Abstract class and we cannot instantiated a Animal class
         // Animal animal=new Animal();
         // animal.walk();

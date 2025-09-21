@@ -11,7 +11,8 @@
         "OOPs_Concept\\Packages_In_java",
         "OOPs_Concept\\Packages_In_java\\PreBuild_Pakages",
         "OOPs_Concept\\Access_Modifiers",
-        "OOPs_Concept\\Abstraction"
+        "OOPs_Concept\\Abstraction",
+        "OOPs_Concept\\Stactic_Functions"
     ],
     "java.project.referencedLibraries": []
 }
