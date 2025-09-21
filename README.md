@@ -22,6 +22,17 @@
   - Non-parameterized constructor
   - Parameterized constructor
   - Default constructor (called if no constructor is explicitly defined)
+  - 
+# Constructors
+- Constructors initialize objects when created.
+- They have the same name as the class and no return type.
+- Constructors are called once during object creation and cannot be called like methods.
+
+# There are three types:
+
+- Non-parameterized constructor
+- Parameterized constructor
+- Default constructor (called if no constructor is explicitly defined)
 
 ## Example: Student Class
 
@@ -43,7 +54,8 @@ public static void main(String[] args) {
 }
 
 
-# Polymorphism
+# Polymorphism 
+-- polymorphis is define as which may have many forms
 ## Run time Polymorphism
 -- It can not detect errors while compilation of the code
 -- This is more Harmful as compare to complile time beacuse it does not detect errors at the time of complilation of the code
@@ -79,20 +91,6 @@ Objects are created using new ClassName().
 Creating an object calls the class constructor.
 
 
-Constructors
-Constructors initialize objects when created.
-
-They have the same name as the class and no return type.
-
-Constructors are called once during object creation and cannot be called like methods.
-
-There are three types:
-
-Non-parameterized constructor
-
-Parameterized constructor
-
-Default constructor (called if no constructor is explicitly defined)
 
 Example: Student Class
 
