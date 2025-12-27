@@ -44,3 +44,39 @@ public class Person {
 
     
 }
+
+
+
+// Polymorphism : there are many ways to represents an single entity
+// poly means many 
+// Morphism means ways to represent 
+// The langues which does not support polymorphism are know as object
+//  basis languages and the  languages which support polymorphism are known as object oriented languages
+
+
+
+/* 
+
+=========================
+Types of polymorphism
+=========================
+Compile time Polymorphism / Static Polymorphism: this is achieved by a method overloading
+What is method overloading 
+when a class has multiple methods with te same name as class name but have different number of parameters
+Example multiple characters
+Metal overloading is also known as compile-time polymorphism. 
+ Why method overloading is known as compile-time polymorphism? 
+ The reason is Java determines which constructor and method will be called at the time of compile time. 
+
+ run Time polymorphism and Dynamic polymorphism
+ Runtime polymorphism is achieved by method overriding
+
+*/
+
+
+/*
+When a child class has the same method name as the super
+class or parent class, and the parameters are the same, 
+everything is the same but only the body is different, that 
+is called method overriding. 
+*/

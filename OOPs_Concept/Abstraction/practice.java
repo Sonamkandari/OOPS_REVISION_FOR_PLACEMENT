@@ -90,3 +90,21 @@ public class practice {
     }
     
 }
+
+
+//Hiding the unnecessary details and showing up only the essential details
+/*
+
+| Basis              | **Abstraction**                                                           | **Encapsulation**                                                  |
+| ------------------ | ------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Meaning**        | Hiding **implementation details** and showing only **essential features** | Wrapping **data + methods** into a single unit and protecting data |
+| **Focus**          | **What** an object does                                                   | **How** data is protected                                          |
+| **Purpose**        | Reduce complexity                                                         | Ensure data security & control                                     |
+| **Achieved using** | `abstract class`, `interface`                                             | Access modifiers (`private`, `public`, `protected`)                |
+| **Example**        | `interface Vehicle { start(); }`                                          | `private int balance;`                                             |
+| **Concerned with** | Design level                                                              | Implementation level                                               |
+| **Data hiding**    | Partial                                                                   | Complete (using `private`)                                         |
+
+
+Getter / setter
+ */

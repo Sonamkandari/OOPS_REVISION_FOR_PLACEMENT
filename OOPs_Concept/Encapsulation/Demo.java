@@ -12,6 +12,16 @@ package Encapsulation;
  D-
  */  
 
+
+
+/*
+
+Encapsulation:It refers to the wrapping the implementation of data members and
+the members inside the class. 
+
+
+ */
+
 public class Demo {
     public static void main(String[]args){
         // new Employee this new keyword is used here to create an object

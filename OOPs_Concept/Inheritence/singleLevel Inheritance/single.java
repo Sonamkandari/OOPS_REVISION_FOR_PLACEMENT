@@ -6,7 +6,9 @@ class Shapes{
     }
 
 }
-
+// One class extends to another class.
+//  A child class extends to the parent class.
+//  The child class uses the properties of the parent's class. 
 class Triangle extends Shapes{
     public void area(int l,int h){
         System.out.println(1/2*(l*h));

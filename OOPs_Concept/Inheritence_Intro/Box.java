@@ -15,7 +15,11 @@ public class Box {
         this.l=side;
         this.w=side;
     }
-
+  Box(double l,double h,double w){
+    this.l=l;
+    this.h=h;
+    this.w=w;
+  }
     Box(Box old){
         this.h=old.h;
         this.l=old.l;
